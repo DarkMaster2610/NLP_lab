@@ -1,7 +1,7 @@
 from nltk.stem import WordNetLemmatizer
 
 l = WordNetLemmatizer()
-print(l.lemmatize("Cat"))
+print(l.lemmatize("Cats"))
 print(l.lemmatize("Cacti"))
 print(l.lemmatize("geese"))
 print(l.lemmatize("rocks"))
